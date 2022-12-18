@@ -1,8 +1,13 @@
+What is subon?
+
+Subon is a tool for searching active subdomain based on list or single target.
+
 
 Required Modules :
-numpy
-argparse
-requests
+pip install numpy
+pip install argparse
+pip install requests
+
 
 How to install :
 git clone https://github.com/RiskEZ/subon
@@ -13,3 +18,5 @@ usage :
 -f, --file      Import bulk URL from file
 -o, --output    Result output location
 -u, --url       Single target check
+
+Any illegal action using this tool is not my responsibilities!
