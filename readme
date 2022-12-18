@@ -1,0 +1,15 @@
+
+Required Modules :
+numpy
+argparse
+requests
+
+How to install :
+git clone https://github.com/RiskEZ/subon
+cd subon
+python subon.py -h
+
+usage :
+-f, --file      Import bulk URL from file
+-o, --output    Result output location
+-u, --url       Single target check
