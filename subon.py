@@ -49,7 +49,7 @@ if arg.file:
             else:
                 check_online = requests.get(f"http://{web}", timeout=5)
                 check_status = check_online.status_code
-            print(f"URL : {web}\nStatus : {check_status}")
+            print(f"URL : {web}\nStatus : {statuses[check_status]}")
 
             # Output location
             if arg.output:
